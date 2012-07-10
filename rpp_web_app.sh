@@ -11,4 +11,5 @@ tmux send-keys -t "rpp_web_app:2" 'foreman start' C-m
 tmux new-window -t "rpp_web_app" -n console -d '/bin/zsh'
 tmux send-keys -t "rpp_web_app:3" 'rails c' C-m
 tmux new-window -t "rpp_web_app" -n irb -d 'irb'
+tmux select-window -t "rpp_web_app:0"
 tmux attach-session -d -t "rpp_web_app"
