@@ -29,7 +29,6 @@ else
 
   # Create a new window inside the session called 'console' running 'rails c'.
   tmux new-window -t "${TMUX_SESSION_NAME}" -n console -d '/bin/zsh'
-  tmux send-keys -t "${TMUX_SESSION_NAME}:3" 'rails c' C-m
 
   # Create a new window inside the session called 'irb' running 'irb'.
   tmux new-window -t "${TMUX_SESSION_NAME}" -n irb -d 'irb'
