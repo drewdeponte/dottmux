@@ -21,17 +21,19 @@ else
   tmux send-keys -t "${TMUX_SESSION_NAME}:0" 'vim' C-m
 
   # Create a new window inside the session called 'log' containing the apps dev logs.
-  tmux new-window -t "${TMUX_SESSION_NAME}" -n log -d 'tail -f log/development.log'
+  tmux new-window -t "${TMUX_SESSION_NAME}" -n log -d '/bin/zsh'
+  tmux send-keys -t "${TMUX_SESSION_NAME}:1" 'tail -f log/development.log' C-m
 
   # Create a new window inside the session called 'foreman' running 'foreman start'.
   tmux new-window -t "${TMUX_SESSION_NAME}" -n foreman -d '/bin/zsh'
   tmux send-keys -t "${TMUX_SESSION_NAME}:2" 'foreman start' C-m
 
+  # Create a new window inside the session called 'irb' running 'irb'.
+  tmux new-window -t "${TMUX_SESSION_NAME}" -n irb -d '/bin/zsh'
+  tmux send-keys -t "${TMUX_SESSION_NAME}:3" 'irb' C-m
+
   # Create a new window inside the session called 'console' running 'rails c'.
   tmux new-window -t "${TMUX_SESSION_NAME}" -n console -d '/bin/zsh'
-
-  # Create a new window inside the session called 'irb' running 'irb'.
-  tmux new-window -t "${TMUX_SESSION_NAME}" -n irb -d 'irb'
 
   # Select the first window in the session for good measure.
   tmux select-window -t "${TMUX_SESSION_NAME}:0"
