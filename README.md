@@ -5,5 +5,5 @@ This is my personal `.tmux` directory setup which contains my `.tmux.conf` and a
 ## Installation
 
     cd ~/
-    git clone git@github.com:cyphactor/dottmux.git ~/.tmux
+    git clone git@github.com:drewdeponte/dottmux.git ~/.tmux
     ln -s ~/.tmux/tmux.conf ~/.tmux.conf
