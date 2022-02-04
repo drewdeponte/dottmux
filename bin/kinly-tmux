@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./tmux-utils.sh
+source ~/.tmux/tmux-utils.sh
 
 create_session "/Users/adeponte/code/uptech/clients/kinly/blvd-polylith" "kinly-blvd-polylith" "neovim" "zsh" "nvim" 0
 create_session "/Users/adeponte/code/uptech/clients/kinly/transactions-service" "kinly-transactions-service" "neovim" "zsh" "nvim" 0

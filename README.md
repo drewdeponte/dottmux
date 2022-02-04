@@ -4,6 +4,12 @@ This is my personal `.tmux` directory setup which contains my `.tmux.conf` and a
 
 ## Installation
 
+### Link Configuration
+
     cd ~/
     git clone git@github.com:drewdeponte/dottmux.git ~/.tmux
     ln -s ~/.tmux/tmux.conf ~/.tmux.conf
+
+### Add Utilities to PATH
+
+Add `$HOME/.tmux/bin` to your PATH environment variable in your shell configurations.
