@@ -4,6 +4,31 @@ function attach_to_session {
   tmux attach-session -d -t "$__session_name"
 }
 
+# Create a window with in the specified session with the given name and shell
+function create_window {
+	local __session_name=$1
+	local __window_name=$2
+	local __intitial_window_shell=$3
+
+  tmux new-window -t "$__session_name" -n "$__window_name" -d "$__initial_window_shell"
+}
+
+# Send given command to the window identified by the session and window number
+function send_command {
+	local __session_name=$1
+	local __window_name=$2
+	local __shell_cmd=$3
+
+  tmux send-keys -t "${__session_name}:${__window_name}" "${__shell_cmd}" C-m
+}
+
+function select_window {
+	local __session_name=$1
+	local __window_name=$2
+
+	tmux select-window -t "${__session_name}:${__window_name}"
+}
+
 # Create session given the following arguments
 # - base directory
 # - session name
@@ -31,10 +56,10 @@ function create_session {
 		cd  $__session_base_path
 		tmux new-session -s "$__session_name" -n "$__initial_window_name" -d "$__initial_window_shell"
 
-		tmux send-keys -t "${TMUX_SESSION_NAME}:0" "$__initial_window_shell_cmd" C-m
+		send_command "$__session_name" "$__initial_window_name" "$__initial_window_shell_cmd"
 
 		# Select the first window in the session for good measure.
-		tmux select-window -t "${TMUX_SESSION_NAME}:0"
+		select_window "$__session_name" "$__initial_window_name"
 
 		if [ $__should_attach -eq 1 ]; then
 			echo " Attaching to it..."
@@ -70,7 +95,7 @@ function create_empty_session {
 		tmux new-session -s "$__session_name" -n "$__initial_window_name" -d "$__initial_window_shell"
 
 		# Select the first window in the session for good measure.
-		tmux select-window -t "${TMUX_SESSION_NAME}:0"
+		select_window "$__session_name" "$__initial_window_name"
 
 		if [ $__should_attach -eq 1 ]; then
 			echo " Attaching to it..."
