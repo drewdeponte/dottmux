@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source ./tmux-utils.sh
+
+create_session "/Users/adeponte/code/uptech/clients/kinly/blvd-polylith" "kinly-blvd-polylith" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/kinly/transactions-service" "kinly-transactions-service" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/kinly/transaction-workers" "kinly-transaction-workers" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/kinly/mobileapps" "kinly-mobile" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/kinly/trans-service-kafka-producer" "kinly-trans-service-kafka-producer" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/kinly/terraform" "kinly-terraform" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/kinly/k8s" "kinly-k8s" "neovim" "zsh" "nvim" 0
