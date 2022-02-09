@@ -1,6 +1,0 @@
-# Create a new window inside the session called 'vim' containing an instance of vim.
-tmux new-window -t "${TMUX_SESSION_NAME}" -n vim -d '${SHELL}'
-tmux send-keys -t "${TMUX_SESSION_NAME}:vim" 'vim' C-m
-
-# Select the first window in the session for good measure.
-tmux select-window -t "${TMUX_SESSION_NAME}:vim"
