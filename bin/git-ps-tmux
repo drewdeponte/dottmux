@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_session "/Users/adeponte/code/uptech/git-ps" "git-ps" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/git-ps-rs" "git-ps-rs" "neovim" "zsh" "nvim" 0
