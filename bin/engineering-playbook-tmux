@@ -1,5 +1,0 @@
-#!/bin/bash
-
-source ~/.tmux/tmux-utils.sh
-
-create_session "/Users/adeponte/code/uptech/engineering-playbook" "engineering-playbook" "neovim" "zsh" "nvim" 0
