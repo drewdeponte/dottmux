@@ -9,3 +9,6 @@ create_session "/Users/adeponte/code/uptech/clients/kinly/mobileapps" "kinly-mob
 create_session "/Users/adeponte/code/uptech/clients/kinly/trans-service-kafka-producer" "kinly-trans-service-kafka-producer" "neovim" "zsh" "nvim" 0
 create_session "/Users/adeponte/code/uptech/clients/kinly/terraform" "kinly-terraform" "neovim" "zsh" "nvim" 0
 create_session "/Users/adeponte/code/uptech/clients/kinly/k8s" "kinly-k8s" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/kinly/cbkc-csv-anonymize" "kinly-csv_anonymize" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/kinly/mx-transaction-webhook-lambdas" "kinly-mx-transaction-webhook-lambdas" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/kinly/trans-faktory-server" "kinly-faktory-server" "neovim" "zsh" "nvim" 0
