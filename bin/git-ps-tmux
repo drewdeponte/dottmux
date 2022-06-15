@@ -5,3 +5,5 @@ source ~/.tmux/tmux-utils.sh
 create_session "/Users/adeponte/code/uptech/git-ps-rs" "git-ps-rs" "neovim" "zsh" "nvim" 0
 create_session "/Users/adeponte/code/uptech/git-ps.sh" "git-ps_sh" "neovim" "zsh" "nvim" 0
 create_window "git-ps_sh" "zola" "zsh"
+create_session "/Users/adeponte/code/uptech/git-ps-book" "git-ps-book" "neovim" "zsh" "nvim" 0
+create_window "git-ps-book" "serve" "zsh"
