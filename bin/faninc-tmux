@@ -7,3 +7,4 @@ create_session "/Users/adeponte/code/uptech/clients/viva/faninc-k8s" "faninc-k8s
 create_session "/Users/adeponte/code/uptech/clients/viva/faninc-flutter" "faninc-flutter" "neovim" "zsh" "nvim" 0
 create_session "/Users/adeponte/code/uptech/clients/viva/faninc-api" "faninc-api" "neovim" "zsh" "nvim" 0
 create_session "/Users/adeponte/code/uptech/clients/viva/faninc-book" "faninc-book" "neovim" "zsh" "nvim" 0
+create_session "/Users/adeponte/code/uptech/clients/viva/faninc-lambdas" "faninc-lambdas" "neovim" "zsh" "nvim" 0
