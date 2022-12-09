@@ -2,4 +2,4 @@
 
 source ~/.tmux/tmux-utils.sh
 
-create_session "/Users/adeponte/Documents/Niki" "Niki" "neovim" "zsh" "nvim" 0
+create_session ~/Documents/Niki "Niki" "neovim" "zsh" "nvim" 0

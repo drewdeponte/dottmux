@@ -2,4 +2,4 @@
 
 source ~/.tmux/tmux-utils.sh
 
-create_session "/Users/adeponte/code/uptech/engineering" "engineering" "neovim" "zsh" "nvim" 0
+create_session ~/code/uptech/engineering "engineering" "neovim" "zsh" "nvim" 0

@@ -2,9 +2,9 @@
 
 source ~/.tmux/tmux-utils.sh
 
-create_session "/Users/adeponte/code/uptech/clients/viva/faninc-terraform" "faninc-terraform" "neovim" "zsh" "nvim" 0
-create_session "/Users/adeponte/code/uptech/clients/viva/faninc-k8s" "faninc-k8s" "neovim" "zsh" "nvim" 0
-create_session "/Users/adeponte/code/uptech/clients/viva/faninc-flutter" "faninc-flutter" "neovim" "zsh" "nvim" 0
-create_session "/Users/adeponte/code/uptech/clients/viva/faninc-api" "faninc-api" "neovim" "zsh" "nvim" 0
-create_session "/Users/adeponte/code/uptech/clients/viva/faninc-book" "faninc-book" "neovim" "zsh" "nvim" 0
-create_session "/Users/adeponte/code/uptech/clients/viva/faninc-lambdas" "faninc-lambdas" "neovim" "zsh" "nvim" 0
+create_session ~/code/uptech/clients/viva/faninc-terraform "faninc-terraform" "neovim" "zsh" "nvim" 0
+create_session ~/code/uptech/clients/viva/faninc-k8s "faninc-k8s" "neovim" "zsh" "nvim" 0
+create_session ~/code/uptech/clients/viva/faninc-flutter "faninc-flutter" "neovim" "zsh" "nvim" 0
+create_session ~/code/uptech/clients/viva/faninc-api "faninc-api" "neovim" "zsh" "nvim" 0
+create_session ~/code/uptech/clients/viva/faninc-book "faninc-book" "neovim" "zsh" "nvim" 0
+create_session ~/code/uptech/clients/viva/faninc-lambdas "faninc-lambdas" "neovim" "zsh" "nvim" 0

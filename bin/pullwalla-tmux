@@ -2,10 +2,10 @@
 
 source ~/.tmux/tmux-utils.sh
 
-create_empty_session "/Users/adeponte/code/uptech/pullwalla-macos" "pullwalla" "neovim" "zsh" 0
-create_empty_session "/Users/adeponte/code/uptech/pullwalla-core" "pullwalla-core" "neovim" "zsh" 0
-create_empty_session "/Users/adeponte/code/uptech/PullRequestKit" "PullRequestKit" "neovim" "zsh" 0
-create_empty_session "/Users/adeponte/code/uptech/BitBucketCloudKit" "BitBucketCloudKit" "neovim" "zsh" 0
-create_empty_session "/Users/adeponte/code/uptech/BitBucketServerKit" "BitBucketServerKit" "neovim" "zsh" 0
-create_empty_session "/Users/adeponte/code/uptech/GitHubKit" "GitHubKit" "neovim" "zsh" 0
-create_empty_session "/Users/adeponte/code/uptech/GitDiffKit" "GitDiffKit" "neovim" "zsh" 0
+create_empty_session ~/code/uptech/pullwalla-macos "pullwalla" "neovim" "zsh" 0
+create_empty_session ~/code/uptech/pullwalla-core "pullwalla-core" "neovim" "zsh" 0
+create_empty_session ~/code/uptech/PullRequestKit "PullRequestKit" "neovim" "zsh" 0
+create_empty_session ~/code/uptech/BitBucketCloudKit "BitBucketCloudKit" "neovim" "zsh" 0
+create_empty_session ~/code/uptech/BitBucketServerKit "BitBucketServerKit" "neovim" "zsh" 0
+create_empty_session ~/code/uptech/GitHubKit "GitHubKit" "neovim" "zsh" 0
+create_empty_session ~/code/uptech/GitDiffKit "GitDiffKit" "neovim" "zsh" 0
