@@ -4,3 +4,4 @@ source ~/.tmux/tmux-utils.sh
 
 create_empty_session ~/code/uptech/GrowthBook-SDK-Flutter "growthbook-sdk-flutter" "neovim" "zsh" 0
 create_empty_session ~/code/uptech/uptech-growthbook-sdk-flutter "uptech-growthbook-sdk-flutter" "neovim" "zsh" 0
+create_empty_session ~/code/uptech/uptech-growthbook-sdk-typescript "uptech-growthbook-sdk-typescript" "neovim" "zsh" 0
