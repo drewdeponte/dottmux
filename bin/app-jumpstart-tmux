@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_default_session ~/code/uptech/app-jumpstart "app-jumpstart" 0
+create_window_at ~/code/uptech/app-jumpstart/flutter_app_jumpstart "app-jumpstart" "flutter-app-code" "zsh"
+create_window_at ~/code/uptech/app-jumpstart/flutter_app_jumpstart "app-jumpstart" "flutter-app-build" "zsh"
+create_window_at ~/code/uptech/app-jumpstart/flutter_lib_jumpstart "app-jumpstart" "flutter-lib-code" "zsh"
+create_window_at ~/code/uptech/app-jumpstart/flutter_lib_jumpstart "app-jumpstart" "flutter-lib-build" "zsh"
+create_window_at ~/code/uptech/app-jumpstart/nestjs-api-jumpstart "app-jumpstart" "nestjs-api-code" "zsh"
+create_window_at ~/code/uptech/app-jumpstart/nestjs-api-jumpstart "app-jumpstart" "nestjs-api-build" "zsh"
+create_window_at ~/code/uptech/app-jumpstart/typescript_lib_jumpstart "app-jumpstart" "typescript-lib-code" "zsh"
+create_window_at ~/code/uptech/app-jumpstart/typescript_lib_jumpstart "app-jumpstart" "typescript-lib-build" "zsh"
+create_window_at ~/code/uptech/app-jumpstart/project-shell-libs "app-jumpstart" "project-shell-libs-code" "zsh"
+create_window_at ~/code/uptech/app-jumpstart/project-shell-libs "app-jumpstart" "project-shell-libs-build" "zsh"
