@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_default_session ~/code/uptech/feature_toggles "feature-toggles" 0
+create_window_at ~/code/uptech/feature_toggles/GrowthBook-SDK-Flutter "feature-toggles" "flutter-growthbook-sdk" "zsh"
+create_window_at ~/code/uptech/feature_toggles/growthbook "feature-toggles" "growthbook" "zsh"
+create_window_at ~/code/uptech/feature_toggles/uptech-growthbook-sdk-flutter "feature-toggles" "uptech-growthbook-sdk-flutter" "zsh"
+create_window_at ~/code/uptech/feature_toggles/uptech-growthbook-sdk-typescript "feature-toggles" "uptech-growthbook-sdk-typescript" "zsh"
