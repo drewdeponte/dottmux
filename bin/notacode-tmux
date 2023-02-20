@@ -3,5 +3,4 @@
 source ~/.tmux/tmux-utils.sh
 
 create_session ~/code/uptech/NotaCode "NotaCode" "neovim" "zsh" "nvim" 0
-create_window "NotaCode" "notagit" "zsh"
-send_command "NotaCode" "notagit" "cd notagit" 
+create_window_at ~/code/uptech/NotaCode/notagit "NotaCode" "notagit" "zsh"
