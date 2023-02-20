@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_session ~/code/personal/drewedponte\.com "drewdeponte-dot-com" "neovim" "zsh" "nvim" 0
+create_window "drewdeponte-dot-com" "zola" "zsh"
+send_command "drewdeponte-dot-com" "zola" "zola serve"
