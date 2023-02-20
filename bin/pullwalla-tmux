@@ -2,10 +2,12 @@
 
 source ~/.tmux/tmux-utils.sh
 
-create_empty_session ~/code/uptech/pullwalla-macos "pullwalla" "neovim" "zsh" 0
-create_empty_session ~/code/uptech/pullwalla-core "pullwalla-core" "neovim" "zsh" 0
-create_empty_session ~/code/uptech/PullRequestKit "PullRequestKit" "neovim" "zsh" 0
-create_empty_session ~/code/uptech/BitBucketCloudKit "BitBucketCloudKit" "neovim" "zsh" 0
-create_empty_session ~/code/uptech/BitBucketServerKit "BitBucketServerKit" "neovim" "zsh" 0
-create_empty_session ~/code/uptech/GitHubKit "GitHubKit" "neovim" "zsh" 0
-create_empty_session ~/code/uptech/GitDiffKit "GitDiffKit" "neovim" "zsh" 0
+create_default_session ~/code/uptech/pullwalla "pullwalla" 0
+create_window_at ~/code/uptech/pullwalla/pullwalla-macos "pullwalla" "app-code" "zsh"
+create_window_at ~/code/uptech/pullwalla/pullwalla-core "pullwalla" "core" "zsh"
+create_window_at ~/code/uptech/pullwalla/PullRequestKit "pullwalla" "PullRequestKit" "zsh"
+create_window_at ~/code/uptech/pullwalla/GitHubKit "pullwalla" "GitHubKit" "zsh"
+create_window_at ~/code/uptech/pullwalla/BitbucketCloudKit "pullwalla" "BitBucketCloudKit" "zsh"
+create_window_at ~/code/uptech/pullwalla/BitbucketServerKit "pullwalla" "BitBucketServerKit" "zsh"
+create_window_at ~/code/uptech/pullwalla/GitDiffKit "pullwalla" "GitDiffKit" "zsh"
+create_window_at ~/code/uptech/pullwalla/pullwalla.com "pullwalla" "pullwalla.com" "zsh"
