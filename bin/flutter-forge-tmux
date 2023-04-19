@@ -3,8 +3,8 @@
 source ~/.tmux/tmux-utils.sh
 
 create_session ~/code/uptech/flutter_forge/flutter_forge "flutter-forge" "code" "zsh" "nvim" 0
-create_window_at ~/code/uptech/flutter_forge/flutter_forge "flutter-forge" "code-build" "zsh"
-create_window_at ~/code/uptech/flutter_forge/flutter_forge/example "flutter-forge" "example" "zsh"
-create_window_at ~/code/uptech/flutter_forge/flutter_forge/example "flutter-forge" "example-build" "zsh"
-create_window_at ~/code/uptech/flutter_forge/flutter-forge.dev "flutter-forge" "flutter-forge-dot-dev-code" "zsh"
-create_window_at ~/code/uptech/flutter_forge/flutter-forge.dev "flutter-forge" "flutter-forge-dot-dev-build" "zsh"
+create_window_at ~/code/uptech/flutter_forge/flutter_forge "flutter-forge:1" "code-build" "zsh"
+create_window_at ~/code/uptech/flutter_forge/flutter_forge/example "flutter-forge:2" "example" "zsh"
+create_window_at ~/code/uptech/flutter_forge/flutter_forge/example "flutter-forge:3" "example-build" "zsh"
+create_window_at ~/code/uptech/flutter_forge/flutter-forge.dev "flutter-forge:4" "flutter-forge-dot-dev-code" "zsh"
+create_window_at ~/code/uptech/flutter_forge/flutter-forge.dev "flutter-forge:5" "flutter-forge-dot-dev-build" "zsh"
