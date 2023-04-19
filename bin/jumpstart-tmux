@@ -4,13 +4,13 @@ source ~/.tmux/tmux-utils.sh
 
 create_default_session ~/code/uptech/jumpstart "jumpstart" 0
 
-create_window_at ~/code/uptech/jumpstart/jumpstart_auth_typescript "jumpstart" "auth_typescript" "zsh"
-create_window_at ~/code/uptech/jumpstart/jumpstart_auth_nestjs "jumpstart" "auth_nestjs" "zsh"
-create_window_at ~/code/uptech/jumpstart/jumpstart_components_flutter "jumpstart" "components_flutter" "zsh"
+create_window_at ~/code/uptech/jumpstart/jumpstart_project_shell_libs "jumpstart" "project_shell_libs" "zsh"
+create_window_at ~/code/uptech/jumpstart/jumpstart_terraform "jumpstart" "terraform" "zsh"
+create_window_at ~/code/uptech/jumpstart/jumpstart_typescript_lib "jumpstart" "typescript_lib" "zsh"
+create_window_at ~/code/uptech/jumpstart/jumpstart_nestjs_lib "jumpstart" "nestjs_libs" "zsh"
 create_window_at ~/code/uptech/jumpstart/jumpstart_nestjs_api "jumpstart" "nestjs_api" "zsh"
 create_window_at ~/code/uptech/jumpstart/jumpstart_flutter_lib "jumpstart" "flutter_lib" "zsh"
 create_window_at ~/code/uptech/jumpstart/jumpstart_flutter_app "jumpstart" "flutter_app" "zsh"
-create_window_at ~/code/uptech/jumpstart/jumpstart_typescript_lib "jumpstart" "typescript_lib" "zsh"
-create_window_at ~/code/uptech/jumpstart/jumpstart_terraform "jumpstart" "terraform" "zsh"
-create_window_at ~/code/uptech/jumpstart/jumpstart_project_shell_libs "jumpstart" "project_shell_libs" "zsh"
-create_window_at ~/code/uptech/jumpstart/jumpstart_nestjs_lib "jumpstart" "project_shell_libs" "zsh"
+create_window_at ~/code/uptech/jumpstart/jumpstart_components_flutter "jumpstart" "components_flutter" "zsh"
+create_window_at ~/code/uptech/jumpstart/jumpstart_auth_typescript "jumpstart" "auth_typescript" "zsh"
+create_window_at ~/code/uptech/jumpstart/jumpstart_auth_nestjs "jumpstart" "auth_nestjs" "zsh"
