@@ -13,3 +13,7 @@ create_window_at ~/code/uptech/clients/viva/faninc/faninc-k8s "faninc" "k8s" "zs
 create_window_at ~/code/uptech/clients/viva/faninc/faninc-lambdas "faninc" "lambdas" "zsh"
 create_window_at ~/code/uptech/clients/viva/faninc/faninc-nft "faninc" "nft" "zsh"
 create_window_at ~/code/uptech/clients/viva/faninc/faninc-contracts "faninc" "contracts" "zsh"
+create_window_at ~/code/uptech/clients/viva/faninc/faninc-arena-api "faninc" "arena-api-code" "zsh"
+create_window_at ~/code/uptech/clients/viva/faninc/faninc-arena-api "faninc" "arena-api-build" "zsh"
+create_window_at ~/code/uptech/clients/viva/faninc/faninc-arena-flutter "faninc" "arena-flutter-code" "zsh"
+create_window_at ~/code/uptech/clients/viva/faninc/faninc-arena-flutter "faninc" "arena-flutter-build" "zsh"
