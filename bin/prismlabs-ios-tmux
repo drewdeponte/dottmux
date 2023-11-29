@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_default_session ~/code/uptech/clients/prismlabs "prismlabs-ios" 0
+create_window_at ~/code/uptech/clients/prismlabs/prismkit-ios "prismlabs-ios" "prismkit-ios" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/prismlink-ios "prismlabs-ios" "prismlink-ios" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/prismkit-consumer-cocoapods "prismlabs-ios" "prismkit-consumer-cocoapods" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/prismkit-framework "prismlabs-ios" "prismkit-framework" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/depth-recorder-ios "prismlabs-ios" "depth-recorder-ios" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/prism-reference "prismlabs-ios" "prism-reference" "zsh"
