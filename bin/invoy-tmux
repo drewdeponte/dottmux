@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_default_session ~/code/uptech/clients/invoy "invoy" 0
+create_window_at ~/code/uptech/clients/invoy/invoy-ios "invoy" "invoy-ios" "zsh"
+create_window_at ~/code/uptech/clients/invoy/invoy-android "invoy" "invoy-android" "zsh"
+create_window_at ~/code/uptech/clients/invoy/invoy-flutter-kit "invoy" "invoy-flutter-kit" "zsh"
+create_window_at ~/code/uptech/clients/invoy/flow_navigation_exploration "invoy" "flow_navigation_exploration" "zsh"
