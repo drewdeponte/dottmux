@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_session ~/code/personal/testing_presentation "test-pres" "neovim" "zsh" "nvim" 0
+create_window_at ~/code/personal/testing_exploration/mockist-interfaces "test-pres" "mockist" "zsh"
+create_window_at ~/code/personal/testing_exploration/classicist "test-pres" "classicist" "zsh"
+create_window_at ~/code/personal/testing_exploration/mockist-concrete-classes "test-pres" "mockist-concrete-classes" "zsh"
