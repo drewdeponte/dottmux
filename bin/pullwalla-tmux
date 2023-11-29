@@ -2,12 +2,6 @@
 
 source ~/.tmux/tmux-utils.sh
 
-create_default_session ~/code/uptech/pullwalla "pullwalla" 0
-create_window_at ~/code/uptech/pullwalla/pullwalla-macos "pullwalla" "app-code" "zsh"
-create_window_at ~/code/uptech/pullwalla/pullwalla-core "pullwalla" "core" "zsh"
-create_window_at ~/code/uptech/pullwalla/PullRequestKit "pullwalla" "PullRequestKit" "zsh"
-create_window_at ~/code/uptech/pullwalla/GitHubKit "pullwalla" "GitHubKit" "zsh"
-create_window_at ~/code/uptech/pullwalla/BitbucketCloudKit "pullwalla" "BitBucketCloudKit" "zsh"
-create_window_at ~/code/uptech/pullwalla/BitbucketServerKit "pullwalla" "BitBucketServerKit" "zsh"
-create_window_at ~/code/uptech/pullwalla/GitDiffKit "pullwalla" "GitDiffKit" "zsh"
-create_window_at ~/code/uptech/pullwalla/pullwalla.com "pullwalla" "pullwalla.com" "zsh"
+create_empty_session ~/code/uptech/pullwalla "pullwalla" "pullwalla" "zsh" 0
+create_window_at ~/code/uptech/pullwalla.com "pullwalla" "pullwalla.com" "zsh"
+create_window_at ~/code/uptech/pullwalla-emails "pullwalla" "emails" "zsh"
