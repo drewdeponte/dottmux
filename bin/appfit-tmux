@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_default_session ~/code/uptech/appfit "appfit" 0
+create_window_at ~/code/uptech/appfit/appfit_flutter "appfit" "flutter-code" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_flutter "appfit" "flutter-build" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_flutter_webview "appfit" "flutter-web-code" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_flutter_webview "appfit" "flutter-web-build" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_api "appfit" "api-code" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_api "appfit" "api-build" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_data_services "appfit" "data-services" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_faktory_server "appfit" "faktory-server" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_lambdas "appfit" "lambdas" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_terraform "appfit" "terraform" "zsh"
+create_window_at ~/code/uptech/appfit/appfit_k8s "appfit" "k8s" "zsh"
