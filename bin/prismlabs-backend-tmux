@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_default_session ~/code/uptech/clients/prismlabs "prismlabs-backend" 0
+create_window_at ~/code/uptech/clients/prismlabs/tempo-hosted-api "prismlabs-backend" "avatar-api-code" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/tempo-hosted-api "prismlabs-backend" "avatar-api-build" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/prism-api "prismlabs-backend" "prism-api-code" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/prism-api "prismlabs-backend" "prism-api-build" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/partner-api "prismlabs-backend" "partner-api-code" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/partner-api "prismlabs-backend" "partner-api-build" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/partner-portal "prismlabs-backend" "partner-portal-code" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/partner-portal "prismlabs-backend" "partner-portal-build" "zsh"
