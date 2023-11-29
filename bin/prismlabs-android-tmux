@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_default_session ~/code/uptech/clients/prismlabs "prismlabs-android" 0
+
+create_window_at ~/code/uptech/clients/prismlabs/android_recoder "prismlabs-android" "android_recorder" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/prismsdk-android "prismlabs-android" "prismsdk-android" "zsh"
+create_window_at ~/code/uptech/clients/prismlabs/android_reference "prismlabs-android" "android_reference" "zsh"
