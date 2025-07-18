@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_session ~/code/flutter "flutter" "code" "zsh" "nvim" 0

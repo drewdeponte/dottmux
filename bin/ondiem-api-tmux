@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_empty_session ~/code/api "api" "code" "zsh" 0
+create_window_at ~/code/api "api" "build" "zsh"
+create_window_at ~/code/api "api" "server" "zsh"
+create_window_at ~/code/api "api" "console" "zsh"
