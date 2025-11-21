@@ -2,4 +2,4 @@
 
 source ~/.tmux/tmux-utils.sh
 
-create_session ~/code/frontend "frontend" "code" "zsh" "nvim" 0
+create_empty_session ~/code/ondiem/frontend "frontend" "code" "zsh" 0

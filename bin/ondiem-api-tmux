@@ -2,7 +2,7 @@
 
 source ~/.tmux/tmux-utils.sh
 
-create_empty_session ~/code/api "api" "code" "zsh" 0
-create_window_at ~/code/api "api" "build" "zsh"
-create_window_at ~/code/api "api" "server" "zsh"
-create_window_at ~/code/api "api" "console" "zsh"
+create_empty_session ~/code/ondiem/api "api" "code" "zsh" 0
+create_window_at ~/code/ondiem/api "api" "build" "zsh"
+create_window_at ~/code/ondiem/api "api" "server" "zsh"
+create_window_at ~/code/ondiem/api "api" "console" "zsh"

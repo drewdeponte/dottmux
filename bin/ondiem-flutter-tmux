@@ -2,4 +2,4 @@
 
 source ~/.tmux/tmux-utils.sh
 
-create_session ~/code/flutter "flutter" "code" "zsh" "nvim" 0
+create_empty_session ~/code/ondiem/flutter "flutter" "code" "zsh" 0

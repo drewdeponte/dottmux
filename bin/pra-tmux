@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_session ~/ "pra-runtime" "pra" "zsh" "pra" 0

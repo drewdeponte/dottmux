@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source ~/.tmux/tmux-utils.sh
+
+create_empty_session ~/code/personal/cross_platform_gui_fundamentals_exploration "thgui" "code" "zsh" 0
+create_window_at ~/code/personal/cross_platform_gui_fundamentals_exploration "thgui" "build" "zsh"
